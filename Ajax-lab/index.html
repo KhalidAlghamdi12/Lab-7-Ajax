@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giphy API App</title>aa
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="req.js"></script>
+</head>
+<body>
+    <h1>Giphy API App</h1>
+    <input type="text" id="searchInput" placeholder="Enter search term" />
+    <button onclick="requestGifsXHR()">Get GIFs (XHR)</button>
+    <button onclick="requestGifsFetch()">Get GIFs (Fetch)</button>
+    <button onclick="requestGifsFetchAsync()">Get GIFs (Fetch Async/Await)</button>
+    <div id="result"></div>
+</body>
+</html>
