@@ -1,1 +1,1 @@
-pictures included in pics file
+picture included in ajax-pics file
